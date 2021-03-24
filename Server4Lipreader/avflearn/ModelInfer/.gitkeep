@@ -1,0 +1,8 @@
+# .gitignore 
+
+# ignore all files in lib/
+lib/*
+# except for .gitkeep
+!.gitkeep
+# ignore TODO file in root directory,not subdir/TODO
+/TODO

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UI.huang.TougueAdjustPages.TougueAdjustActivity">
+    <RelativeLayout
+        android:id="@+id/tougue_adjust_actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="10dp"
+        android:background="#FFFFFF">
+        <ImageButton
+            android:id="@+id/go_back_btn"
+            android:background="#FFFFFF"
+            style="@style/Custom.BackIconStyle">
+
+        </ImageButton>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="口语矫正"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:gravity="center">
+
+        </TextView>
+
+    </RelativeLayout>
+    <android.support.design.widget.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tougue_adjust_tab"
+        app:tabGravity="fill"
+        app:tabIndicatorColor="#FDB526"
+        app:tabTextAppearance="@style/TabLayoutTextStyle"
+        android:layout_marginBottom="0dp"
+        android:elevation="2dp"
+        android:background="@android:color/white"></android.support.design.widget.TabLayout>
+
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tougue_adjust_viewPager"
+        android:background="@android:color/white"
+        android:layout_weight="1"></android.support.v4.view.ViewPager>
+
+</LinearLayout>

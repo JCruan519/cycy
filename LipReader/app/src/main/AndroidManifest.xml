@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.chunxinweiyu.newlipreader">
+
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- 摄像头权限 -->
+    <uses-permission android:name="android.permission.CAMERA" /> <!-- 具备摄像头 -->
+    <uses-feature android:name="android.hardware.camera" /> <!-- 录制音频权限 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" /> <!-- 读写权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+
+        <activity android:name=".UI.zhao.TougueAdjustPages.ToneTrain.Shengmus.Shengmu13_q.Shengmu13Activity"></activity>
+        <activity android:name=".UI.zhao.TougueAdjustPages.ToneTrain.Shengmus.Shengmu14_x.Shengmu14Activity"></activity>
+        <activity android:name=".UI.zhao.TougueAdjustPages.ToneTrain.Shengmus.Shengmu15_z.Shengmu15Activity"></activity>
+        <activity android:name=".UI.zhao.TougueAdjustPages.ToneTrain.Shengmus.Shengmu16_c.Shengmu16Activity"></activity>
+        <activity android:name=".UI.zhao.TougueAdjustPages.ToneTrain.Shengmus.Shengmu17_s.Shengmu17Activity"></activity>
+        <activity android:name=".UI.zhao.TougueAdjustPages.ToneTrain.Shengmus.Shengmu18_r.Shengmu18Activity"></activity>
+        <activity android:name=".UI.zhao.TougueAdjustPages.ToneTrain.Shengmus.Shengmu19_zh.Shengmu19Activity"></activity>
+        <activity android:name=".UI.zhao.TougueAdjustPages.ToneTrain.Shengmus.Shengmu20_ch.Shengmu20Activity"></activity>
+        <activity android:name=".UI.zhao.TougueAdjustPages.ToneTrain.Shengmus.Shengmu21_sh.Shengmu21Activity"></activity>
+        <activity android:name=".UI.zhao.TougueAdjustPages.ToneTrain.Shengmus.Shengmu22_y.Shengmu22Activity"></activity>
+        <activity android:name=".UI.zhao.TougueAdjustPages.ToneTrain.Shengmus.Shengmu23_w.Shengmu23Activity"></activity>
+        <activity android:name=".UI.zhao.TougueAdjustPages.ToneTrain.Yunmus.Yunmu13_ie.Yunmu13Activity"></activity>
+        <activity android:name=".UI.zhao.TougueAdjustPages.ToneTrain.Yunmus.Yunmu14_üe.Yunmu14Activity"></activity>
+        <activity android:name=".UI.zhao.TougueAdjustPages.ToneTrain.Yunmus.Yunmu15_er.Yunmu15Activity"></activity>
+        <activity android:name=".UI.zhao.TougueAdjustPages.ToneTrain.Yunmus.Yunmu16_an.Yunmu16Activity"></activity>
+        <activity android:name=".UI.zhao.TougueAdjustPages.ToneTrain.Yunmus.Yunmu17_en.Yunmu17Activity"></activity>
+        <activity android:name=".UI.zhao.TougueAdjustPages.ToneTrain.Yunmus.Yunmu18_in.Yunmu18Activity"></activity>
+        <activity android:name=".UI.zhao.TougueAdjustPages.ToneTrain.Yunmus.Yunmu19_un.Yunmu19Activity"></activity>
+        <activity android:name=".UI.zhao.TougueAdjustPages.ToneTrain.Yunmus.Yunmu20_ang.Yunmu20Activity"></activity>
+        <activity android:name=".UI.zhao.TougueAdjustPages.ToneTrain.Yunmus.Yunmu21_eng.Yunmu21Activity"></activity>
+        <activity android:name=".UI.zhao.TougueAdjustPages.ToneTrain.Yunmus.Yunmu22_ing.Yunmu22Activity"></activity>
+        <activity android:name=".UI.zhao.TougueAdjustPages.ToneTrain.Yunmus.Yunmu23_ong.Yunmu23Activity"></activity>
+        <activity android:name=".UI.zhao.TougueAdjustPages.PinyinTrain.Danyinzici.Danyinzi6_yu.Danyinzi6Activity"></activity>
+        <activity android:name=".UI.zhao.TougueAdjustPages.PinyinTrain.Danyinzici.Danyinzi7_yin.Danyinzi7Activity"></activity>
+        <activity android:name=".UI.zhao.TougueAdjustPages.PinyinTrain.Danyinzici.Danyinzi8_yun.Danyinzi8Activity"></activity>
+        <activity android:name=".UI.zhao.TougueAdjustPages.PinyinTrain.Danyinzici.Danyinzi9_ye.Danyinzi9Activity"></activity>
+        <activity android:name=".UI.zhao.TougueAdjustPages.PinyinTrain.Danyinzici.Danyinzi10_yue.Danyinzi10Activity"></activity>
+        <activity android:name=".UI.zhao.TougueAdjustPages.PinyinTrain.Duoyinzici.Duoyinzi6_qilai.Duoyinzici6Activity"></activity>
+        <activity android:name=".UI.zhao.TougueAdjustPages.PinyinTrain.Duoyinzici.Duoyinzi7_canjia.Duoyinzici7Activity"></activity>
+        <activity android:name=".UI.zhao.TougueAdjustPages.PinyinTrain.Duoyinzici.Duoyinzi8_kaishi.Duoyinzici8Activity"></activity>
+        <activity android:name=".UI.zhao.TougueAdjustPages.PinyinTrain.Duoyinzici.Duoyinzi9_chuangzao.Duoyinzici9Activity"></activity>
+        <activity android:name=".UI.zhao.TougueAdjustPages.PinyinTrain.Duoyinzici.Duoyinzi10_shengchan.Duoyinzici10Activity"></activity>
+        <activity android:name=".UI.shun.TougueAdjustPages.ToneTrain.Shengmus.Shengmu2_p.Shengmu2Activity" /> <!-- 网络配置1 2020.5.7 -->
+        <!-- 网络配置2 2020.5.7 -->
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity android:name=".UI.huang.TougueAdjustPages.PinyinTrain.AllDuoyinzici.Duoyinzici1_tongguo.Duoyinzici1BaseActivity" />
+        <activity android:name=".UI.leng.UserPages.MyCoursesActivity" />
+        <activity android:name=".UI.leng.UserPages.PersonalPageActivity" />
+        <activity android:name=".UI.zhao.QuestionnaireActivity" />
+        <activity android:name=".UI.zhao.SigninActivity" />
+        <activity android:name=".UI.zhao.LoginActivity" />
+        <activity android:name=".UI.zhao.LogoPageActivity">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity android:name=".UI.huang.TougueAdjustPages.ToneTrain.AllShengmu.Shengmu1_b.Shengmu1BaseActivity" />
+        <activity android:name=".UI.huang.TougueAdjustPages.PinyinTrain.AllPinyinzhishi.Pinyinzhishi2Activity" />
+        <activity android:name=".UI.huang.TougueAdjustPages.PinyinTrain.AllPinyinzhishi.Pinyinzhishi1Activity" />
+        <activity android:name=".UI.huang.TougueAdjustPages.PinyinTrain.AllPinyinzhishi.PinyinzhishiListActivity" />
+        <activity android:name=".UI.huang.TougueAdjustPages.PinyinTrain.AllDuoyinzici.DuoyinziciListActivity" />
+        <activity android:name=".UI.huang.TougueAdjustPages.PinyinTrain.AllDanyinzici.DanyinziciListActivity" />
+        <activity android:name=".UI.huang.TougueAdjustPages.ToneTrain.AllYunmu.YunmuListActivity" />
+        <activity android:name=".UI.huang.TougueAdjustPages.ToneTrain.AllShengmu.ShengmuListActivity" />
+        <activity android:name=".UI.huang.TougueAdjustPages.TougueAdjustActivity" />
+        <activity android:name=".UI.huang.MainPagesHuang.MainPageActivity">
+
+            <!-- 如果要测试huang分支或leng分支则使用这部分启动 -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UI.huang.TougueAdjustPages.PinyinTrain.AllPinyinzhishi.Pinyinzhishi2Activity">
+    <RelativeLayout
+        android:id="@+id/tougue_adjust_actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="10dp"
+        android:background="#FFFFFF">
+        <ImageButton
+            android:id="@+id/go_back_btn"
+            android:background="#FFFFFF"
+            style="@style/Custom.BackIconStyle">
+
+        </ImageButton>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="声母的基本发音方法"
+            android:textColor="#000000"
+            android:textSize="22sp"
+            android:gravity="right"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp">
+
+        </TextView>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NewLipReader</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="score_string">您尚未开始练习</string>
+    <string name="course_commend">你可以通过本课程，在一周内快速掌握出行必备唇语练习，还在等什么。有大佬带你学习，社区分享经验，等你来挑战！</string>
+    <string name="friend_content">今日话题：为什么我们选择LipReading小朋友，你是否有很多问号，问什么一个APP初出茅庐就可以斩获如此多人的青睐，她有什么过人之处，好长。</string>
+    <string name="friend_content_1">今日话题：当我第一次遇见LipReading天哪，怎么会有这么贴心的软件，感觉自己的发音可以越来越标准了，打卡!</string>
+</resources>

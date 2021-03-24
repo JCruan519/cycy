@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UI.zhao.TougueAdjustPages.ToneTrain.Yunmus.Yunmu20_ang.Yunmu20PronunciationExplainFragment">
+
+    <RelativeLayout
+        android:id="@+id/tougue_adjust_actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="10dp"
+        android:background="#FFFFFF">
+        <ImageButton
+            android:id="@+id/go_back_btn"
+            android:background="#FFFFFF"
+            style="@style/Custom.BackIconStyle">
+
+        </ImageButton>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="第二十类韵母ang"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:gravity="center">
+
+        </TextView>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                card_view:cardCornerRadius="25dp"
+                android:layout_height="wrap_content">
+                <SurfaceView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </SurfaceView>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                card_view:cardCornerRadius="25dp"
+                android:layout_height="wrap_content">
+                <SurfaceView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </SurfaceView>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="20dp">
+        <TextView
+            android:id="@+id/explian_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="发音讲解"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:gravity="center">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/explian_title"
+            android:text="此类声母的发音特点，注意事项。.......">
+
+        </TextView>
+        <Button
+            android:id="@+id/start_practice_btn"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:text="开始练习"
+            android:textColor="#FFFFFF"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:background="@drawable/start_practice_bg">
+
+        </Button>
+
+    </RelativeLayout>
+
+</LinearLayout>

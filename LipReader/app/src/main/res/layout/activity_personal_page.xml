@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".UI.leng.UserPages.PersonalPageActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#FEB828"
+        android:layout_height="60dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            >
+
+            <ImageView
+                android:id="@+id/iv_person_back"
+                android:layout_width="30dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/back"
+                android:layout_alignParentLeft="true"
+                android:layout_height="20dp" />
+            
+            <TextView
+                android:id="@+id/tv_title_page"
+                android:text="个人主页"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="头像"
+            android:paddingLeft="10dp"
+            android:textColor="#000000"/>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv_user_head"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:cardCornerRadius="45dp"
+            app:cardElevation="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="220dp"
+            app:cardPreventCornerOverlap="true"
+            >
+            <ImageView
+                android:id="@+id/tv_user_head"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/head"
+                android:scaleType="centerCrop"/>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:background="#00000000"
+        >
+        <TextView
+            android:id="@+id/tv_into_person_1"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="ID"
+            android:paddingLeft="10dp"
+            android:textSize="15sp"
+            android:textColor="#000000" />
+        <TextView
+            android:id="@+id/tv_into_person_2"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="578018334@qq.com"
+            android:paddingLeft="10dp"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="#00000000"
+        >
+        <TextView
+            android:id="@+id/tv_into_person_3"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="昵称"
+            android:paddingLeft="10dp"
+            android:textSize="15sp"
+            android:textColor="#000000" />
+        <TextView
+            android:id="@+id/tv_into_person_4"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="cherry"
+            android:textAllCaps="false"
+            android:paddingLeft="10dp"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="#00000000"
+        >
+        <TextView
+            android:id="@+id/tv_into_person_5"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="生日"
+            android:paddingLeft="10dp"
+            android:textSize="15sp"
+            android:textColor="#000000" />
+        <TextView
+            android:id="@+id/tv_into_person_6"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="2001.1.8"
+            android:textAllCaps="false"
+            android:paddingLeft="10dp"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="#00000000"
+        >
+        <TextView
+            android:id="@+id/tv_into_person_7"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="性别"
+            android:paddingLeft="10dp"
+            android:textSize="15sp"
+            android:textColor="#000000" />
+        <TextView
+            android:id="@+id/tv_into_person_8"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="女"
+            android:textAllCaps="false"
+            android:paddingLeft="10dp"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="#00000000"
+        >
+        <TextView
+            android:id="@+id/tv_into_person_9"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="手机"
+            android:paddingLeft="10dp"
+            android:textSize="15sp"
+            android:textColor="#000000" />
+        <TextView
+            android:id="@+id/tv_into_person_10"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="17882356636"
+            android:textAllCaps="false"
+            android:paddingLeft="10dp"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="#00000000"
+        >
+        <TextView
+            android:id="@+id/tv_into_person_11"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="所在地"
+            android:paddingLeft="10dp"
+            android:textSize="15sp"
+            android:textColor="#000000" />
+        <TextView
+            android:id="@+id/tv_into_person_12"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="四川眉山"
+            android:textAllCaps="false"
+            android:paddingLeft="10dp"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="#00000000"
+        >
+        <TextView
+            android:id="@+id/tv_into_person_13"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="介绍"
+            android:paddingLeft="10dp"
+            android:textSize="15sp"
+            android:textColor="#000000" />
+        <TextView
+            android:id="@+id/tv_into_person_14"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="逆光而来，值得世间一切美好"
+            android:textAllCaps="false"
+            android:paddingLeft="10dp"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_score"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:text="平均得分\n87"
+            android:gravity="center"
+            android:textColor="#000000" 
+            android:background="#F6EB87"
+            android:layout_marginRight="10dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_assess"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:text="听力评估\n暂无"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:background="#F6EB87"
+            android:layout_marginLeft="10dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

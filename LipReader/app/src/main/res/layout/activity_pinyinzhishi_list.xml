@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F5F5"
+    tools:context=".UI.huang.TougueAdjustPages.PinyinTrain.AllPinyinzhishi.PinyinzhishiListActivity">
+    <RelativeLayout
+        android:id="@+id/tougue_adjust_actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="10dp"
+        android:background="#F5F5F5">
+        <ImageButton
+            android:layout_marginLeft="10dp"
+            android:id="@+id/go_back_btn"
+            style="@style/Custom.CloseIconStyle"
+            android:background="#F5F5F5">
+
+        </ImageButton>
+
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <RelativeLayout
+                android:id="@+id/pinyinzhishi1"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:padding="10dp"
+                android:background="@drawable/pinyinzhishi_shape_bg">
+
+                <RelativeLayout
+                    android:id="@+id/pinyinzhishi_title1"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="拼音的基本构成"
+                        android:textSize="24sp"
+                        android:textColor="#000000"
+                        android:gravity="center">
+
+                    </TextView>
+                    <ImageView
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/forwordicon">
+
+                    </ImageView>
+
+                </RelativeLayout>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="在开始学习"
+                    android:layout_below="@+id/pinyinzhishi_title1">
+
+                </TextView>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/pinyinzhishi2"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:padding="10dp"
+                android:background="@drawable/pinyinzhishi_shape_bg">
+
+                <RelativeLayout
+                    android:id="@+id/pinyinzhishi_title2"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="声母的基本法因方法"
+                        android:textSize="24sp"
+                        android:textColor="#000000"
+                        android:gravity="center">
+
+                    </TextView>
+                    <ImageView
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/forwordicon">
+
+                    </ImageView>
+
+                </RelativeLayout>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_below="@+id/pinyinzhishi_title2">
+
+                </TextView>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

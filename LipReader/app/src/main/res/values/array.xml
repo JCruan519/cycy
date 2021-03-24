@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="community_top_tab">
+        <item>推荐</item>
+        <item>最新</item>
+        <item>关注</item>
+    </string-array>
+</resources>

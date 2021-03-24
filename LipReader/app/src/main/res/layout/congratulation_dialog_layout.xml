@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="700dp"
+        android:background="#00FFFFFF"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            card_view:cardCornerRadius="25dp"
+            android:layout_height="0dp"
+            android:layout_weight="9"
+            card_view:cardBackgroundColor="#FFFFFF">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:background="@drawable/congratulationbg">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:text="总体评价"
+                        android:textColor="#000000"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_weight="1">
+
+                    </TextView>
+                    <com.github.mikephil.charting.charts.BarChart
+                        android:id="@+id/score_chart"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="4">
+
+                    </com.github.mikephil.charting.charts.BarChart>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:text="纠错提示"
+                        android:textColor="#000000"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_weight="1">
+
+                    </TextView>
+                    <com.cokus.wavelibrary.view.WaveformView
+                        android:id="@+id/waveview"
+                        android:visibility="invisible"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="4">
+
+                    </com.cokus.wavelibrary.view.WaveformView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:text="专家建议"
+                        android:textColor="#000000"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_weight="1">
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="4"
+                        android:textColor="#000000"
+                        android:text="\t1. xxxxxx\n\t2. xxxxxx\n\t3. xxxxxx\n"
+                        android:textSize="20sp"
+                        android:textStyle="italic">
+
+                    </TextView>
+
+                </LinearLayout>
+<!--                <TextView-->
+<!--                    android:layout_marginTop="70dp"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="恭喜你完成练习\n击败了xxx人"-->
+<!--                    android:textColor="#000000"-->
+<!--                    android:textSize="26sp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:gravity="center">-->
+
+<!--                </TextView>-->
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <ImageButton
+                android:id="@+id/quitDialogBtn"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="#00FFFFFF"
+                android:layout_centerInParent="true"
+                android:src="@drawable/quitcongratulation"
+                android:scaleType="fitCenter">
+
+            </ImageButton>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
